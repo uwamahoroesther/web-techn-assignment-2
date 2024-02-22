@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.leftside, .rightside{
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .leftside, .rightside{
+        height: 200vh;
+    }
+}
+
+.logo{
+    width: 50%;
+    height:80px;
+    margin-top:70px;
+    margin-left:150px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+
+}
+
+.input-group{
+    width: 90%;
+    max-width: 400px;
+    position: absolute; 
+    /* top:50%;
+    left: 50%; */
+    
+    margin: 15px;
+    margin-left : 55px;
+    box-sizing: border-box;
+    text-align: left;
+    display: block;
+    
+}
+.input-field{
+    margin:10px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 100%; 
+    border: 0.2; 
+    outline: 0;
+    padding: 4px 4px;
+}
+
+.leftside h1{
+    font-size: 1.25rem;
+    margin-bottom: 3rem !important;
+    text-align: center !important;
+    color: rgb(15, 15, 141);
+    position: relative;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.leftside h2{
+    font-size: 1.25rem;
+    margin-bottom: 3rem !important;
+    text-align: center !important;
+    position: relative;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.btn-field{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.btn-field button{
+    flex:48%;
+    width: 30%;
+    background-color: rgba(5, 2, 36, 0.308);
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+form p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+form p a {
+    text-decoration: none;
+    color: rgb(76, 76, 219)
+}
+
+
+.building{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+
+}
+
+form a{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+
+form a {
+    text-decoration: none;
+    color: rgb(63, 63, 143)
+}
+
+#check{
+    margin-right: 6px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+label{
+    font-weight: 200;
+    cursor: pointer;
+    display: inline-block;
+    
+
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+}
+
+.container-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttonl {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    /* transition: background-color 0.3s ease; */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AUCA_Registration:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AUCA_Registration</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="AUCA_Registration-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="AUCA_Registration:war exploded" />
+    </root>
+  </artifact>
+</component>
